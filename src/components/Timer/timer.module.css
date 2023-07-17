@@ -1,0 +1,12 @@
+.timer {
+  display: flex;
+  grid-column: 6/13;
+  flex-direction: column;
+  width: 100%;
+  max-height: 507px;
+}
+
+.notification {
+  color: black;
+}
+

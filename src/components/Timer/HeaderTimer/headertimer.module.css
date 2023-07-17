@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  background-color: var(--gray);
+  transition: background-color 0.5s ease-in-out 0.2s;
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+}
+
+.number {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+}

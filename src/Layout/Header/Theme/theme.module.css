@@ -1,0 +1,25 @@
+.checkbox {
+  display: block;
+  width: 64px;
+  height: 34px;
+  padding: 2px;
+  border-radius: 1rem;
+  background-color: var(--stat);
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.checkbox svg {
+  width: 30px;
+  height: 30px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .5s;
+}
+
+.checkbox .darkSvg {
+  transform: translateX(100%);
+}

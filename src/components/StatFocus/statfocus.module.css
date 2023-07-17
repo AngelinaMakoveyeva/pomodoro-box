@@ -1,0 +1,48 @@
+.focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1/5;
+  grid-row: 3/4;
+  width: 100%;
+  height: 179px;
+  padding: 25px;
+  background-color: var(--grayF4);
+  transition: background-color 0.5s ease-in-out 0.2s;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--black);
+  transition: color 0.5s ease-in-out 0.2s;
+}
+
+.percent {
+  margin: 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76px;
+  color: var(--black);
+  transition: color 0.5s ease-in-out 0.2s;
+}
+
+.orange {
+	background-color: #FFDDA9;
+}
+
+.orange .dark {
+	color: #333;
+}
+
+.orange svg path {
+  stroke: #FFAE35
+}
+
+.dark {
+  color: #c4c4c4;
+}
+
+
